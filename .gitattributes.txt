@@ -1,0 +1,8 @@
+# Automatically normalize line endings
+* text=auto
+
+# Explicitly set line endings for specific file types
+*.html text
+*.css text
+*.js text
+*.php text

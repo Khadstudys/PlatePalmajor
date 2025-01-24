@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+}
+body{
+    background-color: #c9d6ff;
+    background:linear-gradient(to right,#009688,#004e46);
+}
+.container{
+    background:#fff;
+    width:450px;
+    padding:1.5rem;
+    margin:50px auto;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(0,0,1,0.9);
+}
+form{
+    margin:0 2rem;
+}
+.form-title{
+    font-size:1.5rem;
+    font-weight:bold;
+    text-align:center;
+    padding:1.3rem;
+    margin-bottom:0.4rem;
+}
+input{
+    color:inherit;
+    width:100%;
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid #757575;
+    padding-left:1.5rem;
+    font-size:15px;
+}
+.input-group{
+    padding:1% 0;
+    position:relative;
+
+}
+.input-group i{
+    position:absolute;
+    color:black;
+}
+input:focus{
+    background-color: transparent;
+    outline:transparent;
+    border-bottom:2px solid hsl(327,90%,28%);
+}
+input::placeholder{
+    color:transparent;
+}
+label{
+    color:#757575;
+    position:relative;
+    left:1.2em;
+    top:-1.3em;
+    cursor:auto;
+    transition:0.3s ease all;
+}
+input:focus~label,input:not(:placeholder-shown)~label{
+    top:-3em;
+    color:hsl(327,90%,28%);
+    font-size:15px;
+}
+.recover{
+    text-align:right;
+    font-size:1rem;
+    margin-bottom:1rem;
+
+}
+.recover a{
+    text-decoration:none;
+    color:#009688;
+}
+.recover a:hover{
+    color:#004e46;
+    text-decoration:underline;
+}
+.btn{
+    font-size:1.1rem;
+    padding:8px 0;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    width:100%;
+    background:#009688;
+    color:white;
+    cursor:pointer;
+    transition:0.9s;
+}
+.btn:hover{
+    background:#004e46;
+}
+.or{
+    font-size:1.1rem;
+    margin-top:0.5rem;
+    text-align:center;
+}
+.icons{
+    text-align:center;
+}
+.icons i{
+    color:#009688;
+    padding:0.8rem 1.5rem;
+    border-radius:10px;
+    font-size:1.5rem;
+    cursor:pointer;
+    border:2px solid #dfe9f5;
+    margin:0 15px;
+    transition:1s;
+}
+.icons i:hover{
+    background:#004e46;
+    font-size:1.6rem;
+    border:2px solid #009688;
+}
+.links{
+    display:flex;
+    justify-content:space-around;
+    padding:0 4rem;
+    margin-top:0.9rem;
+    font-weight:bold;
+}
+button{
+    color:#009688;
+    border:none;
+    background-color:transparent;
+    font-size:1rem;
+    font-weight:bold;
+}
+button:hover{
+    text-decoration:underline;
+    color:#268178;
+}
+/*....responsive---*/
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Make the container take up more width on smaller screens */
+        margin: 20px auto; /* Reduce margin for smaller screens */
+        padding: 1rem; /* Reduce padding */
+    }
+
+    .form-title {
+        font-size: 1.3rem; /* Smaller title font size */
+    }
+
+    input {
+        font-size: 14px; /* Smaller input font size */
+    }
+
+    .btn {
+        font-size: 1rem; /* Smaller button font size */
+        padding: 10px 0; /* Adjust button padding */
+    }
+
+    .or {
+        font-size: 1rem;
+    }
+    .icons i {
+        font-size: 1.2rem; /* Smaller icon size */
+        padding: 0.5rem; /* Adjust padding for icons */
+    }
+
+    .links {
+        flex-direction: column; /* Stack links vertically */
+        padding: 0; /* Remove horizontal padding */
+        margin-top: 1rem; /* Adjust margin for spacing */
+    }
+
+    .links button {
+        margin: 5px 0; /* Add margin between buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%; /* Make the container even wider on very small screens */
+        padding: 0.8rem; /* Further reduce padding */
+    }
+
+    .form-title {
+        font-size: 1.2rem; /* Further reduce title font size */
+    }
+
+    input {
+        font-size: 13px; /* Further reduce input font size */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Further reduce button font size */
+        padding: 8px 0; /* Adjust button padding */
+    }
+
+    .or {
+        font-size: 0.9rem; /* Further reduce font size for "or" text */
+    }
+
+    .icons i {
+        font-size: 1rem; /* Further reduce icon size */
+        padding: 0.4rem; /* Adjust padding for icons */
+    }
+
+    .links {
+        padding: 0; /* Remove padding for links */
+    }
+
+    .links button {
+        margin: 3px 0; /* Adjust margin for buttons */
+    }
+}
