@@ -37,22 +37,31 @@ include("connect.php");
                     <p class="card__description">water you should drink</p>
                     <h2 class="card__title">Calculate Water Intake</h2>
                     <a href="f1.php" class="card__button">Water-Intake</a>
-                </div>
-            </article>
-            <article class="card__article">
-                <img src="track.jpg" alt="image" class="card__img">
-                <div class="card__data">
-                    <p class="card__description">Track water you drink</p> 
-                    <h2 class="card__title">Water Tracker</h2>
+                    <br>
                     <a href="f2.php" class="card__button">Water-Track</a>
                 </div>
             </article>
             <article class="card__article">
-                <img src="food.jpg" alt="image" class="card__img">
+            <img src="food.jpg" alt="image" class="card__img">
                 <div class="card__data">
-                    <p class="card__description">Healthy food with Calorie Calculator</p> 
-                    <h2 class="card__title">Calorie-Tracker</h2>
-                    <a href="calorie.php" class="card__button">Calorie-Track</a>
+                    <p class="card__description">Manage your Calorie</p> 
+                    <h2 class="card__title">Calorie Manager</h2>
+                    
+                    <a href="f3.php" class="card__button">Calorie-calci</a>
+                    <br>
+                    <a href="f4.php" class="card__button">Reci-Calorie-Calci</a>
+                    <br>
+                    <a href="f5.php" class="card__button">Find recipe</a>
+                </div>
+            </article>
+            <article class="card__article">
+            <img src="cal-food.jpg" alt="image" class="card__img">
+                <div class="card__data">
+                    <p class="card__description">Get yourself a Pal</p> 
+                    <h2 class="card__title">AiPal</h2>
+                    <a href="/platepal/major/ai/" class="card__button">AiPal</a>
+
+
                 </div>
             </article>
         </div>
