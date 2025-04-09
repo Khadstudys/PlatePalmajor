@@ -47,15 +47,14 @@
             <div class="row">
                 <div class="col">
                     <img src="logo.png" alt="" class="logo">
-                    <p>This s a major project PlatePal innovated with the idea of keeping water, nutrtients and balanced diet in notice. This project can be a major difference in many people's health</p>
+                    <p>This is a hackathon project innovated with the idea of keeping water, nutrtients and balanced diet in notice. This project can be a major difference in many people's health</p>
                 </div>
                 <div class="col">
                     <h3>Email <div class="underline"><span></span></div></h3>
-                    <p class="email-id">160421737001@mjcollege.ac.in</p>
-                    <p class="email-id">160421737008@mjcollege.ac.in</p>
-                    <h3>Roll Number</h3>
-                    <p> 1604-21-737-008</p>
-                    <p>1604-21-737-001</p>
+                    <p class="email-id">khadijafatimacme@gmail.com</p>
+                    <p class="email-id">uzmafatima342@gmail.com</p>
+                    <p class="email-id">160623740003@stanley.edu.in</p>
+                    
                 </div>
                 <div class="col">
                     <h3>Links <div class="underline"><span></span></h3>
@@ -66,8 +65,9 @@
                 </div>
                 <div class="col">
                     <h3>Developed By <div class="underline"><span></span></h3>
-                    <p>Hajera Khanam</p>
-                    <p>Haiqua Falak</p>
+                    <p>Khadija Fatima</p>
+                    <p>Uzma Fatima</p>
+                    <p>Amtul Rahman Sadiya</p>
                 </div>
 
             </div>
