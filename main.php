@@ -395,8 +395,9 @@
     <footer class="u-align-center u-clearfix u-container-align-center u-footer u-yellow u-footer" id="sec-8746"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">
           Developed by</p>
-          <p class="u-small-text u-text u-text-variant u-text-1">Hajera Khanam, 1604-21-737-008</p>
-          <p class="u-small-text u-text u-text-variant u-text-1">Haiqua Falak, 1604-21-737-001</p>
+          <p class="u-small-text u-text u-text-variant u-text-1">Khadija Fatima</p>
+          <p class="u-small-text u-text u-text-variant u-text-1">Uzma Fatima</p>
+          <p class="u-small-text u-text u-text-variant u-text-1">Amtul Rahman Sadiya</p>
       </div></footer>
       
     
